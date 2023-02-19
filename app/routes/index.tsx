@@ -13,7 +13,9 @@ export default function Index() {
 
 
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+    <div>
+      <div>테스팅 사이트</div>
+
       <Link to={`/${data.uuid}`}>{data.uuid}</Link>
     </div>
   );
