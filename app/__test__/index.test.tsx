@@ -1,4 +1,3 @@
-import "@testing-library/react";
 import { render, screen } from "@testing-library/react";
 import { vi } from "vitest";
 import Index from "@/routes";
