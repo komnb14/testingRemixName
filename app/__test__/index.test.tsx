@@ -22,7 +22,7 @@ describe("routes/index 테스팅", () => {
     expect(mustTrue).toBeTruthy();
   });
 
-  it("무조건 실패", () => {
+  it("없는값 체크", () => {
     render(<Index />);
 
     const mustTrue = screen.queryByText("없는값123232323");
